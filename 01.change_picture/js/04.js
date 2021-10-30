@@ -23,7 +23,6 @@ window.onload = function(){
         pageIdx = Number(this.id.substr(1));
         phone.style.backgroundImage = 'url("../images/05/big/' + this.id +'.jpg")';
     }
-
     function angleleftFn(){
         pageIdx = pageIdx - 1;
         if(pageIdx < 1){
@@ -38,7 +37,4 @@ window.onload = function(){
         }
         phone.style.backgroundImage = 'url("../images/05/big/a' + pageIdx +'.jpg")';
     }
-
-
-
 }

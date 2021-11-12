@@ -1,30 +1,30 @@
 # JavaScript - 增加、移除、切換 class 屬性
 
-## 增加 class 屬性 - add
+## &#9758;增加 class 屬性 - add
 
 ```javascript
 menu.classList.add("open");
 ```
 
-## 移除 class 屬性 - remove
+## &#9758;移除 class 屬性 - remove
 
 ```javascript
 menu.classList.remove("open");
 ```
 
-## 切換同一個 class 屬性 - toggle
+## &#9758;切換同一個 class 屬性 - toggle
 
 ```javascript
 app.classList.toggle("open");
 ```
 
-## 檢查 class 屬性有幾個 - length
+## &#9758;檢查 class 屬性有幾個 - length
 
 ```javascript
 console.log(document.getElementById("myBtn").classList.length);
 ```
 
-## 檢查 class 屬性是否存在 - contains
+## &#9758;檢查 class 屬性是否存在 - contains
 
 ```javascript
 menuBtn.addEventListener("click", function () {
@@ -48,7 +48,7 @@ if (!app.classList.contains("open")) {
 }
 ```
 
-## 應用 1 - 選取狀態時 切換 class 屬性
+## &#9758;應用 1 - 選取狀態時 切換 class 屬性
 
 ```JavaScript
 for(var i = 0; i < nav.length; i++){
@@ -64,7 +64,7 @@ function menuClick(){
 
 ```
 
-## 應用 2 - 選取狀態時 切換並增加 class 屬性
+## &#9758;應用 2 - 選取狀態時 切換並增加 class 屬性
 
 ```JavaScript
 var page = document.getElementByClassName('page');	// 取得一個陣列的pages
@@ -87,7 +87,7 @@ function menuClick(){
 }
 ```
 
-## 補充 - style.display
+## &#9758;補充 - style.display
 
 [參考值](https://www.w3school.com.cn/htmldom/prop_style_display.asp)
 

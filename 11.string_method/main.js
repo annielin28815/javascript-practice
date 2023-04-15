@@ -2,7 +2,7 @@ const firstName = "Annie";
 const LastName = "Lin";
 const department = "RD";
 
-// 使用反折號：組裝字串、空格或已知變數
+// template string(模板字串) -> 使用反折號：組裝字串、空格或已知變數
 const intro = `Hi! ${firstName} ${LastName} is from ${department}`;
 
 // 轉換全大寫

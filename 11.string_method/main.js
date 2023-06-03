@@ -35,3 +35,8 @@ const change = intro.replace('!', '?'); // Hi? Annie Lin is from RD
 // 查詢是否包含某單字的方法
 const check = intro.indexOf('Hello') >= 0;  // false
 const check2 = intro.includes('Hello'); // false
+
+// 顛倒字串
+const originStr = 'abcdef'
+const reverseStr = originStr.split('').reverse().join(''); // 'fedcba'
+

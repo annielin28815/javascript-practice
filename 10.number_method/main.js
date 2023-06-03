@@ -27,3 +27,8 @@ let str22 = str22.toFixed(1);  // "123.5"
 // number to string(取到小數點第5位)
 let str01 = 123.45;
 let str02 = str01.toFixed(5); // "123.45000"
+
+// 判斷是否為 n 的倍數，以 2 為範例
+let num = 8
+let num2  = 9
+let is2mutiple = (num % 2 === 0); // 會返回 true/fasle
